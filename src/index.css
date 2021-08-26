@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700;800;900&display=swap');
+:root {
+    --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+    --Light-Grayish-Cyan-Background: hsl(180, 52%, 96%);
+    --Light-Grayish-Cyan-Filter-Tablets: hsl(180, 31%, 95%);
+    --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+    --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Spartan', sans-serif;
+}
+
+#root {
+    width: 100%;
 }

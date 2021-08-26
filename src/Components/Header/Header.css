@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    height: 25vh;
+    background-color: var(--Desaturated-Dark-Cyan);
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        height: 20vh;
+    }
+}

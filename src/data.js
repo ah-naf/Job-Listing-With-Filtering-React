@@ -1,0 +1,136 @@
+import React from 'react';
+import photosnap from './images/photosnap.svg';
+import manage from './images/manage.svg';
+import myhome from './images/myhome.svg';
+import account from './images/account.svg';
+import logostudios from './images/loop-studios.svg';
+import faceit from './images/faceit.svg';
+import shortly from './images/shortly.svg';
+import insure from './images/insure.svg';
+import eyecamco from './images/eyecam-co.svg';
+import airfilter from './images/the-air-filter-company.svg';
+const data = [
+    {
+        id: 1,
+        image: photosnap,
+        company: 'Photosnap',
+        new: true,
+        featured: true,
+        title:'Senior Frontend Developer',
+        time:'1d ago',
+        type:'Full Time',
+        area: 'USA only',
+        tags: ['Frontend', 'Senior', 'HTML', 'CSS', 'JavaScript'],
+    },
+    {
+        id: 2,
+        image: manage,
+        company: 'Manage',
+        new: true,
+        featured: true,
+        title:'Fullstack Developer',
+        time:'1d ago',
+        type:'Part Time',
+        area: 'Remote',
+        tags: ['Fullstack', 'Midweight', 'Python', 'React'],
+    },
+    {
+        id: 3,
+        image: account,
+        company: 'Account',
+        new: true,
+        featured: false,
+        title:'Junior Frontend Developer',
+        time:'5d ago',
+        type:'Part Time',
+        area: 'USA only',
+        tags: ['Frontend', 'Junior', 'CSS', 'JavaScript'],
+    },
+    {
+        id: 4,
+        image: myhome,
+        company: 'MyHome',
+        new: false,
+        featured: false,
+        title:'Junior Frontend Developer',
+        time:'5d ago',
+        type:'Contract',
+        area: 'USA only',
+        tags: ['Frontend', 'Junior', 'CSS', 'JavaScript'],
+    },
+    {
+        id: 5,
+        image: logostudios,
+        company: 'Loop Stdios',
+        new: false,
+        featured: false,
+        title:'Software Engineer',
+        time:'1w ago',
+        type:'Full Time',
+        area: 'Worldwide',
+        tags: ['Fullstack', 'Midweight', 'Sass', 'Ruby', 'JavaScript'],
+    },
+    {
+        id: 6,
+        image: faceit,
+        company: 'FaceIt',
+        new: false,
+        featured: false,
+        title:'Junior Backend Developer',
+        time:'2w ago',
+        type:'Full Time',
+        area: 'UK only',
+        tags: ['Backend', 'Junior', 'Ruby', 'RoR'],
+    },
+    {
+        id: 7,
+        image: shortly,
+        company: 'Shortly',
+        new: false,
+        featured: false,
+        title:'Junior Developer',
+        time:'2w ago',
+        type:'Full Time',
+        area: 'Worldwide',
+        tags: ['Frontend', 'Junior', 'HTML', 'Sass', 'JavaScript'],
+    },
+    {
+        id: 8,
+        image: insure,
+        company: 'Insure',
+        new: false,
+        featured: false,
+        title:'Junior Frontend Developer',
+        time:'2w ago',
+        type:'Full Time',
+        area: 'USA only',
+        tags: ['Frontend', 'Junior', 'Vue', 'Sass', 'JavaScript'],
+    },
+    {
+        id: 9,
+        image: eyecamco,
+        company: 'Eyecam Co.',
+        new: false,
+        featured: false,
+        title:'Full Stack Engineer',
+        time:'3w ago',
+        type:'Full Time',
+        area: 'Worldwide',
+        tags: ['Fullstack', 'Midweight', 'Django', 'Python', 'JavaScript'],
+    },
+    {
+        id: 10,
+        image: airfilter,
+        company: 'The Air Filter Company',
+        new: false,
+        featured: false,
+        title:'Front-end Dev',
+        time:'1mo ago',
+        type:'Part Time',
+        area: 'Worldwide',
+        tags: ['Frontend', 'Junior', 'React', 'Sass', 'JavaScript'],
+    },
+    
+];
+
+export default data;
